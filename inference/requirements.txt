@@ -1,0 +1,10 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+pillow==11.0.0
+
+# Install these when you are ready to run real PyTorch/Ultralytics inference:
+# ultralytics
+# torch
+# torchvision
+# efficientnet-pytorch

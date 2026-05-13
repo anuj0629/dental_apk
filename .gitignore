@@ -1,0 +1,14 @@
+node_modules
+.env
+.env.local
+dist
+coverage
+uploads
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pkl
+*.joblib
+*.log
+.DS_Store

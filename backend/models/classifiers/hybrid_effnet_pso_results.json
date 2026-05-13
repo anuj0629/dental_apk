@@ -1,0 +1,49 @@
+{
+  "accuracy": 0.9442379182156134,
+  "classification_report": {
+    "Caries": {
+      "precision": 0.9447236180904522,
+      "recall": 0.9306930693069307,
+      "f1-score": 0.9376558603491272,
+      "support": 606.0
+    },
+    "Periapical lesion": {
+      "precision": 0.9438502673796791,
+      "recall": 0.9553450608930988,
+      "f1-score": 0.9495628782784129,
+      "support": 739.0
+    },
+    "accuracy": 0.9442379182156134,
+    "macro avg": {
+      "precision": 0.9442869427350657,
+      "recall": 0.9430190651000148,
+      "f1-score": 0.94360936931377,
+      "support": 1345.0
+    },
+    "weighted avg": {
+      "precision": 0.9442437621980646,
+      "recall": 0.9442379182156134,
+      "f1-score": 0.9441980806091586,
+      "support": 1345.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      564,
+      42
+    ],
+    [
+      33,
+      706
+    ]
+  ],
+  "best_fitness": 0.9461164826799959,
+  "weak_class": "Periapical lesion",
+  "weak_class_f1": 0.9495628782784129,
+  "params": {
+    "yolo_threshold": 0.30832536556337525,
+    "classifier_threshold": 0.763759044589546,
+    "yolo_weight": 0.5339270344450571,
+    "classifier_weight": 0.46607296555494293
+  }
+}
