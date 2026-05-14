@@ -100,6 +100,21 @@ py -m venv .venv
 pip install -r requirements.txt
 ```
 
+## Deployment
+
+This project is ready to be deployed as a web prototype.
+
+Recommended setup:
+
+- `frontend` on Vercel or Netlify
+- `backend` on Render or Railway
+- `inference` on Render or Railway
+- `Supabase` as the database
+
+See the full deployment guide here:
+
+- [DEPLOYMENT.md](/C:/Users/Anuj/Documents/GitHub/DENTAL-APP/DEPLOYMENT.md:1)
+
 ## API Overview
 
 - `POST /api/auth/login`
